@@ -3,7 +3,7 @@ class DB{
    public $aDatabaseName;
    public $aUserName;
         function DB($mysql_database,$mysql_username,$mysql_password,$mysql_host){
-		$this -> aDataBaseName = $mysql_database;
+		$this -> aDatabaseName = $mysql_database;
 		$this -> aUserName = $mysql_username;
 		//$this -> printMe();
         //        echo $mysql_password;
