@@ -1,9 +1,10 @@
 <?php
 $str = 'ADD';
 //echo $str;
+echo ' get ';
 echo $_GET['name'];
-echo ' ';
+echo ' request ';
 echo $_REQUEST['name'];
-echo ' ';
+echo ' post ';
 echo $_POST['name'];
 ?>
