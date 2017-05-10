@@ -9,7 +9,7 @@ class DB{
         //        echo $mysql_password;
 		//        echo $mysql_username;
 		//        echo $mysql_host;
-		mysql_connect($mysql_host,$mysql_username,$mysql_password);
+		        mysql_connect($mysql_host,$mysql_username,$mysql_password);
                 mysql_select_db($mysql_database);
         }
 
