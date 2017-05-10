@@ -1,4 +1,7 @@
 <?php
+class horse {
+    public $name;
+}
 $str = 'ADD';
 //echo $str;
 echo ' get ';
@@ -13,5 +16,10 @@ if ($_SERVER["CONTENT_TYPE"] == 'application/json') {
     $postData = file_get_contents('php://input');
     $data = json_decode($postData, true);
     echo $data['name'];
+    echo ' post object ';
+    $horse = (object) $data;
+    echo $horse -> name;
+
+
 }
 ?>
