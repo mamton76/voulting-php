@@ -1,9 +1,9 @@
 <?php
 $str = 'ADD';
 //echo $str;
-echo $_GET;
+echo $_GET['name'];
 echo ' ';
-echo $_REQUEST;
+echo $_REQUEST['name'];
 echo ' ';
-echo $_POST;
+echo $_POST['name'];
 ?>
