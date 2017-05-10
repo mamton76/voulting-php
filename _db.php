@@ -5,10 +5,10 @@ class DB{
         function DB($mysql_database,$mysql_username,$mysql_password,$mysql_host){
 		$this -> aDataBaseName = $mysql_database;
 		$this -> aUserName = $mysql_username;
-		$this -> printMe(); 
-                echo $mysql_password;
-		echo $mysql_username;
-		echo $mysql_host;
+		//$this -> printMe();
+        //        echo $mysql_password;
+		//        echo $mysql_username;
+		//        echo $mysql_host;
 		mysql_connect($mysql_host,$mysql_username,$mysql_password);
                 mysql_select_db($mysql_database);
         }
