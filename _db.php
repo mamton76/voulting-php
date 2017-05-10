@@ -1,4 +1,6 @@
 <?php
+const SELECT_COMMON_PART = "select id, dt_creation, dt_update, ";
+
 class DB{
    public $aDatabaseName;
    public $aUserName;
